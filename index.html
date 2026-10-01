@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pinterest Clone - Home</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+<header>
+  <a href="index.html">
+    <img
+      class="logo"
+      src="https://pngimg.com/uploads/pinterest/pinterest_PNG66.png"
+      alt="Pinterest">
+  </a>
+
+  <nav>
+    <a href="index.html" class="active">Home</a>
+    <a href="explore.html">Explore</a>
+    <a href="create.html">Create</a>
+  </nav>
+
+  <div class="search-box">
+    <span>⌕</span>
+    <input type="text" placeholder="Search">
+  </div>
+
+  <div class="header-icons">
+
+    <a href="favorites.html" class="top-heart">♡</a>
+
+    <button class="icon">💬</button>
+
+    <a href="profile.html">
+      <img
+        class="profile"
+        src="https://i.pravatar.cc/100?img=47"
+        alt="Profile">
+    </a>
+
+  </div>
+
+  <div class="mobile-sidebar">
+
+    <input type="checkbox" id="sidebar-toggle">
+
+    <label for="sidebar-toggle" class="menu-icon">
+        ☰
+    </label>
+
+    <div class="sidebar">
+        <div class="sidebar-header">
+            <img src="https://logotyp.us/file/pinterest.svg" alt="Pinterest">
+            <label for="sidebar-toggle" class="close-btn">×</label>
+        </div>
+
+        <a href="index.html">🏠 Home</a>
+        <a href="explore.html">🔍 Explore</a>
+        <a href="create.html">➕ Create</a>
+        <a href="profile.html">👤 Profile</a>
+        <a href="favorites.html">♡ Likes</a>
+    </div>
+
+    <label for="sidebar-toggle" class="sidebar-overlay"></label>
+
+  </div>
+
+</header>
+
+
+<div class="categories">
+
+  <button class="category active-category">All</button>
+  <button class="category">Fashion</button>
+  <button class="category">Home Decor</button>
+  <button class="category">Food</button>
+  <button class="category">Travel</button>
+  <button class="category">Photography</button>
+  <button class="category">Art</button>
+  <button class="category">Beauty</button>
+
+</div>
+
+
+<main class="gallery">
+
+
+  <!-- PIN 1 -->
+
+  <div class="pin">
+
+    <div class="image-container">
+
+      <img
+        src="https://images.unsplash.com/photo-1497250681960-ef046c08a56e?w=600"
+        alt="Plants">
+
+      <button class="save">Save</button>
+
+      <input type="checkbox" id="heart1" class="heart-check">
+      <label for="heart1" class="heart">♡</label>
+
+    </div>
+
+    <div class="pin-info">
+      <p>Beautiful plant inspiration</p>
+      <small>Home • Plants</small>
+    </div>
+
+  </div>
+
+
+  <!-- PIN 2 -->
+
+  <div class="pin">
+
+    <div class="image-container">
+
+      <img
+        src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=600"
+        alt="Fashion">
+
+      <button class="save">Save</button>
+
+      <input type="checkbox" id="heart2" class="heart-check">
+      <label for="heart2" class="heart">♡</label>
+
+    </div>
+
+    <div class="pin-info">
+      <p>Fashion outfit ideas</p>
+      <small>Fashion • Style</small>
+    </div>
+
+  </div>
+
+
+  <!-- PIN 3 -->
+
+  <div class="pin">
+
+    <div class="image-container">
+
+      <img
+        src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=600"
+        alt="Beach">
+
+      <button class="save">Save</button>
+
+      <input type="checkbox" id="heart3" class="heart-check">
+      <label for="heart3" class="heart">♡</label>
+
+    </div>
+
+    <div class="pin-info">
+      <p>Dream beach destination</p>
+      <small>Travel • Beach</small>
+    </div>
+
+  </div>
+
+
+  <!-- PIN 4 -->
+
+  <div class="pin">
+
+    <div class="image-container">
+
+      <img
+        src="https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=600"
+        alt="Books">
+
+      <button class="save">Save</button>
+
+      <input type="checkbox" id="heart4" class="heart-check">
+      <label for="heart4" class="heart">♡</label>
+
+    </div>
+
+    <div class="pin-info">
+      <p>Cozy reading corner</p>
+      <small>Books • Lifestyle</small>
+    </div>
+
+  </div>
+
+
+  <!-- PIN 5 -->
+
+  <div class="pin">
+
+    <div class="image-container">
+
+      <img
+        src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?w=600"
+        alt="Fashion">
+
+      <button class="save">Save</button>
+
+      <input type="checkbox" id="heart5" class="heart-check">
+      <label for="heart5" class="heart">♡</label>
+
+    </div>
+
+    <div class="pin-info">
+      <p>Minimal fashion look</p>
+      <small>Fashion • Outfit</small>
+    </div>
+
+  </div>
+
+
+  <!-- PIN 6 -->
+
+  <div class="pin">
+
+    <div class="image-container">
+
+      <img
+        src="https://images.unsplash.com/photo-1500534623283-312aade485b7?w=600"
+        alt="Mountain">
+
+      <button class="save">Save</button>
+
+      <input type="checkbox" id="heart6" class="heart-check">
+      <label for="heart6" class="heart">♡</label>
+
+    </div>
+
+    <div class="pin-info">
+      <p>Mountain adventure</p>
+      <small>Travel • Nature</small>
+    </div>
+
+  </div>
+
+
+  <!-- PIN 7 -->
+
+  <div class="pin">
+
+    <div class="image-container">
+
+      <img
+        src="https://images.unsplash.com/photo-1498837167922-ddd27525d352?w=600"
+        alt="Food">
+
+      <button class="save">Save</button>
+
+      <input type="checkbox" id="heart7" class="heart-check">
+      <label for="heart7" class="heart">♡</label>
+
+    </div>
+
+    <div class="pin-info">
+      <p>Healthy food ideas</p>
+      <small>Food • Recipes</small>
+    </div>
+
+  </div>
+
+
+  <!-- PIN 8 -->
+
+  <div class="pin">
+
+    <div class="image-container">
+
+      <img
+        src="https://images.unsplash.com/photo-1484101403633-562f891dc89a?w=600"
+        alt="Interior">
+
+      <button class="save">Save</button>
+
+      <input type="checkbox" id="heart8" class="heart-check">
+      <label for="heart8" class="heart">♡</label>
+
+    </div>
+
+    <div class="pin-info">
+      <p>Modern interior design</p>
+      <small>Home • Interior</small>
+    </div>
+
+  </div>
+
+
+  <!-- PIN 9 -->
+
+  <div class="pin">
+
+    <div class="image-container">
+
+      <img
+        src="https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=600"
+        alt="Clothing">
+
+      <button class="save">Save</button>
+
+      <input type="checkbox" id="heart9" class="heart-check">
+      <label for="heart9" class="heart">♡</label>
+
+    </div>
+
+    <div class="pin-info">
+      <p>Street style inspiration</p>
+      <small>Fashion • Streetwear</small>
+    </div>
+
+  </div>
+
+
+  <!-- PIN 10 -->
+
+  <div class="pin">
+
+    <div class="image-container">
+
+      <img
+        src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=600"
+        alt="Forest">
+
+      <button class="save">Save</button>
+
+      <input type="checkbox" id="heart10" class="heart-check">
+      <label for="heart10" class="heart">♡</label>
+
+    </div>
+
+    <div class="pin-info">
+      <p>Peaceful forest</p>
+      <small>Nature • Photography</small>
+    </div>
+
+  </div>
+
+
+  <!-- PIN 11 -->
+
+  <div class="pin">
+
+    <div class="image-container">
+
+      <img
+        src="https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=600"
+        alt="Desk">
+
+      <button class="save">Save</button>
+
+      <input type="checkbox" id="heart11" class="heart-check">
+      <label for="heart11" class="heart">♡</label>
+
+    </div>
+
+    <div class="pin-info">
+      <p>Aesthetic workspace</p>
+      <small>Workspace • Design</small>
+    </div>
+
+  </div>
+
+
+  <!-- PIN 12 -->
+
+  <div class="pin">
+
+    <div class="image-container">
+
+      <img
+        src="https://images.unsplash.com/photo-1517841905240-472988babdf9?w=600"
+        alt="Portrait">
+
+      <button class="save">Save</button>
+
+      <input type="checkbox" id="heart12" class="heart-check">
+      <label for="heart12" class="heart">♡</label>
+
+    </div>
+
+    <div class="pin-info">
+      <p>Portrait photography</p>
+      <small>Photography • Portrait</small>
+    </div>
+
+  </div>
+
+
+  <!-- PIN 13 -->
+
+  <div class="pin">
+
+    <div class="image-container">
+
+      <img
+        src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600"
+        alt="Shoes">
+
+      <button class="save">Save</button>
+
+      <input type="checkbox" id="heart13" class="heart-check">
+      <label for="heart13" class="heart">♡</label>
+
+    </div>
+
+    <div class="pin-info">
+      <p>Sneaker inspiration</p>
+      <small>Fashion • Sneakers</small>
+    </div>
+
+  </div>
+
+
+  <!-- PIN 14 -->
+
+  <div class="pin">
+
+    <div class="image-container">
+
+      <img
+        src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=600"
+        alt="Coffee">
+
+      <button class="save">Save</button>
+
+      <input type="checkbox" id="heart14" class="heart-check">
+      <label for="heart14" class="heart">♡</label>
+
+    </div>
+
+    <div class="pin-info">
+      <p>Morning coffee aesthetic</p>
+      <small>Coffee • Lifestyle</small>
+    </div>
+
+  </div>
+
+
+  <!-- PIN 15 -->
+
+  <div class="pin">
+
+    <div class="image-container">
+
+      <img
+        src="https://images.unsplash.com/photo-1519681393784-d120267933ba?w=600"
+        alt="Mountain">
+
+      <button class="save">Save</button>
+
+      <input type="checkbox" id="heart15" class="heart-check">
+      <label for="heart15" class="heart">♡</label>
+
+    </div>
+
+    <div class="pin-info">
+      <p>Winter mountain view</p>
+      <small>Travel • Mountains</small>
+    </div>
+
+  </div>
+
+
+  <!-- PIN 16 -->
+
+  <div class="pin">
+
+    <div class="image-container">
+
+      <img
+        src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600"
+        alt="Shopping">
+
+      <button class="save">Save</button>
+
+      <input type="checkbox" id="heart16" class="heart-check">
+      <label for="heart16" class="heart">♡</label>
+
+    </div>
+
+    <div class="pin-info">
+      <p>Shopping inspiration</p>
+      <small>Shopping • Lifestyle</small>
+    </div>
+
+  </div>
+
+
+  <!-- PIN 17 -->
+
+  <div class="pin">
+
+    <div class="image-container">
+
+      <img
+        src="https://images.unsplash.com/photo-1531058020387-3be344556be6?w=600"
+        alt="Art">
+
+      <button class="save">Save</button>
+
+      <input type="checkbox" id="heart17" class="heart-check">
+      <label for="heart17" class="heart">♡</label>
+
+    </div>
+
+    <div class="pin-info">
+      <p>Creative art ideas</p>
+      <small>Art • Creativity</small>
+    </div>
+
+  </div>
+
+
+  <!-- PIN 18 -->
+
+  <div class="pin">
+
+    <div class="image-container">
+
+      <img
+        src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=600"
+        alt="Restaurant">
+
+      <button class="save">Save</button>
+
+      <input type="checkbox" id="heart18" class="heart-check">
+      <label for="heart18" class="heart">♡</label>
+
+    </div>
+
+    <div class="pin-info">
+      <p>Beautiful restaurant</p>
+      <small>Food • Interior</small>
+    </div>
+
+  </div>
+
+
+</main>
+
+</body>
+</html>
